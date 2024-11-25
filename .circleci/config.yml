@@ -26,3 +26,4 @@ workflows:
       - cypress/run:
           name: run-e2e-tests
           cypress-command: npx cypress run --browser electron --headless
+          start-command: npm run client:dev
